@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#activo{
+    background-color: rgba(255, 166, 0, 0.726);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1200px){
+    #activo{
+        border-radius: 0px;
+        padding: 0px;
+    }
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#main{
+    list-style: none;
+    background-color: gray;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 145px;
+}
+
+@media screen and (max-width: 1200px){
+    img{
+        width: 260px;
+    }
+}
+
+
+h1{
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+#footer{
+    text-align: center;
+}
+
+#footer a{
+    font-size: 23px;
+}
+
+.footer_p{
+    font-size: 23px;
+}
+
+@media screen and (max-width: 1200px){
+    #footer a{
+        font-size: 30px;
+    }
+
+    .footer_p{
+        font-size: 25px;
+    }
+}
+
+.cartao_1{
+    margin: 20px;
+    background-color: transparent;
+    width: 29vh;
+    transition: 0.5s;
+    color: white;
+    text-align: center;
+}
+
+.cartao_1:hover{
+    transition: 0;
+    padding: 0;
+    background-color: rgb(150, 136, 136);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.cartao_1:hover img{
+    border-radius: 15px;
+}
+
+.cartao_1 img{
+    width: 29vh;
+}
+
+.cartao_1:hover h1{
+    transition: 0.3s;
+    color: orange;
+}
+
+/* Separar css */

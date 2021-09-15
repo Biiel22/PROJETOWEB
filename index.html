@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>BIFLIX - MELHORES RESUMOS</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css" href="css/Biflix.css">
+        <link rel="icon" type="icon" href="img/Geral/favicon.png">
+        <link rel="stylesheet" href="css/Bloco_serie/bserie.css">
+        <link rel="stylesheet" href="css/Carrossel/carrossel.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/series.js"></script>
+        <script src="js/MENU_DROP/dropdown.js"></script>        
+    </head>
+
+    <body>
+
+        <div id="main">
+
+            <div>
+                <a href="index.html">
+                    <img src="img/Geral/favicon.png" style="display: flex; margin: auto;" >
+                </a>
+            </div>
+            
+            <div class="menu" id="m_menu">
+
+                <div id="m_menu">
+                    <a href="#" onclick="show_menu()" class="btt_menu">
+                        <i id="i_menu" class="material-icons"  > menu </i>
+                    </a>
+                </div>
+
+
+                <div id="activo" class="menu_items">
+                    <a href="index.html"  >Início</a>
+                </div>
+
+                <div id="m_resumos" class="menu_items">
+                    <a href="INICIO/Resumos.html" >Resumos</a>
+                </div>
+
+                <div id="m_lançamentos" class="menu_items">
+                    <a href="INICIO/Filmes.html" >Filmes</a>
+                </div>
+            </div>
+
+                <div id="my_carrossel">
+
+                    <div class="carrossel">
+                        <a href="INICIO/TW/TeenWolf.html">
+                            <img src="img/TW/LOGO TW.jpg">
+                        </a>
+                    </div>
+
+                    <div class="carrossel">
+                        <a href="INICIO/ARROW/Arrow.html">
+                            <img src="img/ARROW/arrowimg.jpg">
+                        </a>
+                    </div>
+
+                    <div class="carrossel">
+                        <a href="INICIO/RIVERDALE/Riverdale.html">
+                            <img src="img/RIVERDALE/Riverdale-6.jpg">
+                        </a>
+                    </div>
+
+                    <a href="#" class="anterior" onclick="plus_carrossel(-1)">&#10094;</a>
+                    <a href="#" class="proximo" onclick="plus_carrossel(1)">&#10095;</a>
+
+                    <div class="dots">
+
+                        <span class="dot" onclick="current_carrossel(1)"></span>
+                        <span class="dot" onclick="current_carrossel(2)"></span>
+                        <span class="dot" onclick="current_carrossel(3)"></span>
+
+                    </div>
+
+                </div>
+
+                <script src="js/Carrossel/carrossel.js"></script>
+
+                <div id="container">
+                    <div class="cartao_1">
+                        <a href="INICIO/ARROW/Arrow.html">
+                            <img src="../img/ARROW/icon2.jfif">
+                            <h1>Arrow</h1>
+                        </a>
+                    </div>
+
+                    <div class="cartao_1">
+                        <a href="INICIO/BROOKLYN99/Brookyn99.html">
+                            <img src="../img/BROOKLYN99/brooklyn99img.jpg">
+                            <h1>Brooklyn 99</h1>
+                        </a>
+                    </div>
+
+                    <div class="cartao_1">
+                        <a href="INICIO/LOKI/Loki.html">
+                            <img src="img/LOKI/LOKI.jfif">
+                            <h1>Loki</h1>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="footer">
+                    <p>Equipe Member @Copyright</p>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

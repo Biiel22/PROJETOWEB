@@ -1,0 +1,70 @@
+#my_carrossel{
+    background-color: black;
+    width: 85%;
+    position: relative;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.carrossel a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.carrossel img{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.anterior, .proximo{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 3%;
+    align-items: center;
+    width: auto;
+    padding: 50px;
+    margin-top: -22px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    height: 83%;
+    color: transparent;
+}
+
+.proximo{
+    right: 0;
+}
+
+.proximo:hover, .anterior:hover{
+    background-color: transparent;
+    border-radius: 5px;
+    color: orange;
+    transition: 0.5s;
+}
+
+.dot{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 0px 2px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.ativo, .dot:hover{
+    background-color: orange;
+}
+
+.dots{
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    bottom: 40px;
+    width: 100%;
+}

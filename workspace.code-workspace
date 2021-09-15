@@ -1,0 +1,87 @@
+{
+	"folders": [
+		{
+			"name": "Aula_03B",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Aula_03B"
+		},
+		{
+			"name": "aula_03",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\aula_03"
+		},
+		{
+			"name": "ZOAR",
+			"path": "..\\ZOAR"
+		},
+		{
+			"name": "Aula_03",
+			"path": "..\\..\\Downloads\\Aula_03"
+		},
+		{
+			"name": "Aula_04B",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Aula_04B"
+		},
+		{
+			"name": "Desafio1",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Desafio1"
+		},
+		{
+			"name": "Desafio - Parada 06",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Desafio - Parada 06"
+		},
+		{
+			"name": "Aula_08",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Aula_08"
+		},
+		{
+			"name": "Gabriel Visentin",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Gabriel Visentin"
+		},
+		{
+			"name": "Aula11",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Aula11"
+		},
+		{
+			"name": "Desafio parada 11",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Desafio parada 11"
+		},
+		{
+			"name": "Desafio - P12",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Desafio - P12"
+		},
+		{
+			"name": "Aula_12B",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Aula_12B"
+		},
+		{
+			"name": "DESAFIO PARADA 13",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\DESAFIO PARADA 13"
+		},
+		{
+			"name": "Aula_14B",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Aula_14B"
+		},
+		{
+			"name": "Aula_15B",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Aula_15B"
+		},
+		{
+			"name": "DESAFIO PARADA 14",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\DESAFIO PARADA 14"
+		},
+		{
+			"name": "Desafio - Parada 15",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\Desafio - Parada 15"
+		},
+		{
+			"name": "PROJETO",
+			"path": "..\\Jovem de futuro\\TECNOLOGIA\\PROJETO"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PROJETO SPN",
+		"liveServer.settings.port": 5501
+	}
+}
